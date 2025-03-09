@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
+    <script defer src=" https://pyscript.net/latest/pyscript.css"></script>
+    <title>Meet The Saksham Talk</title>
+    <link rel="icon" type="image/png" href="favicon/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <py-script src="/Users/rohanchauthe/Desktop/Sign_Language_Detection_Using_Mediapipe 2/.venv"></py-script>
+    
+</body>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Meet The Saksham Talk</h1>
+            <p class="subtitle">Real-time gesture recognition to text conversion for better communication.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>How It Works</h2>
+            <p>Use your webcam to perform sign language gestures. The AI will translate them into readable text!</p>
+        </section>
+
+        <section class="translator-container">
+            <div class="video-wrapper">
+                <video id="webcam" autoplay></video5>
+                <div id="gestureOutput" class="output-text">Gesture recognition text will appear here...</div>
+            </div>
+            <div class="controls">
+                <button id="startButton">Start Camera</button>
+                <button id="stopButton">Stop Camera</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>AI-Powered Meet The Saksham Talk | Created with Aniket and Team</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
